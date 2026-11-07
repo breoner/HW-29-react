@@ -1,0 +1,7 @@
+.item { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px; border: 1px solid #edf0f4; border-radius: 10px; background: #fafbfe; }
+.details { min-width: 0; display: grid; gap: 4px; overflow-wrap: anywhere; }
+.details strong { font-size: .95rem; }
+.details a { color: #5c6e86; text-decoration: none; font-size: .87rem; }
+.details a:hover { text-decoration: underline; }
+.delete { border: 1px solid #edcad0; background: #fff; color: #ae3d52; font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer; padding: 8px 10px; border-radius: 8px; flex-shrink: 0; }
+.delete:hover { background: #fff2f4; }

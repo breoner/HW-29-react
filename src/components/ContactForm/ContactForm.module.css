@@ -1,0 +1,7 @@
+.form { display: grid; gap: 18px; }
+.field { display: grid; gap: 8px; font-size: .9rem; font-weight: 600; }
+.field input { width: 100%; border-radius: 9px; border: 1px solid #d7deea; outline: none; padding: 12px 14px; font: inherit; font-weight: 400; transition: border-color .2s, box-shadow .2s; }
+.field input:focus { border-color: #7567cc; box-shadow: 0 0 0 3px #7567cc22; }
+.submit { border: 0; border-radius: 10px; background: #5e56ba; color: white; padding: 13px; font: inherit; font-weight: 700; cursor: pointer; }
+.submit:hover { background: #4f479e; }
+.error { margin: 0; color: #b02e44; font-size: .88rem; }
